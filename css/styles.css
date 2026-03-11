@@ -45,7 +45,7 @@ text-shadow:0 0 8px #9b5cff;
 header {
     background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("../images/Punk.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 40%;
     text-align: center;
     padding: 120px 20px;
 }
@@ -127,9 +127,12 @@ footer {
 
 /* Form */
 
-form input {
-    padding: 10px;
-    margin-top: 8px;
+form input{
+width:100%;
+max-width:350px;
+padding:10px;
+margin-top:8px;
+}
 }
 
 /* Improve intro readability */
@@ -178,6 +181,11 @@ section a:hover {
 
 /* Stack navigation links */
 
+header{
+padding:70px 20px;
+background-position:35% center;
+}
+
 section{
 padding:40px 10px;
 }
@@ -189,15 +197,15 @@ align-items:center;
 }
 
 nav li{
-display:inline-block;
-margin-right:20px;
+margin:6px 0;
 }
 
 nav a{
-font-size:16px;
-padding:8px 10px;
+font-size:15px;
+padding:6px 8px;
 display:inline-block;
 }
+
 
 /* Smaller header title */
 

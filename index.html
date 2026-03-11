@@ -18,7 +18,6 @@
 <ul>
 <li style="display:inline;"><a href="index.html">Home</a></li>
 <li style="display:inline;"><a href="music.html">Music</a></li>
-<li style="display:inline;"><a href="blog.html">Blog</a></li>
 <li style="display:inline;"><a href="about.html">About</a></li>
 <li style="display:inline;"><a href="contact.html">Contact</a></li>
 <li style="display:inline;"><a href="index.html">Submit your music</a></li>
@@ -157,22 +156,24 @@ One of the latest releases supported and promoted through Music Addicts.
 
 </section>
 
-<!-- Footer -->
+<!-- Footer / Contact -->
 <footer>
 
 <h2>Contact Us</h2>
 
-<form>
+<form class="contact-form">
 
-<label>Name:</label><br>
-<input type="text" name="name"><br><br>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
 
-<label>Email:</label><br>
-<input type="email" name="email"><br><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
 
-<input type="submit" value="Submit">
+<button type="submit">Submit</button>
 
 </form>
+
+</footer>
 
 </footer>
 
