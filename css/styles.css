@@ -206,19 +206,3 @@ height:200px;
 display:block;
 margin:20px auto;
 }
-
-/* Stack contact form */
-
-footer form{
-display:flex;
-flex-direction:column;
-align-items:center;
-}
-
-form input{
-width:80%;
-}
-
-nav a:active{
-color:#9b5cff;
-}
