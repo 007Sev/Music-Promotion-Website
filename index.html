@@ -7,23 +7,25 @@
 
 <body>
 
-<h1>Music Addicts</h1>
-
-<nav style="background-color:black; padding:10px;">
-
-<img src="Images/logo.png" alt="Music Addicts Logo" width="200">
-
-<a href="index.html" style="color:white;">Home</a> |
-<a href="music.html" style="color:white;">Music</a> |
-<a href="blog.html" style="color:white;">Blog</a> |
-<a href="about.html" style="color:white;">About</a> |
-<a href="contact.html" style="color:white;">Contact</a>
-
+<!-- Navigation -->
+<nav>
+<ul>
+<li style="display:inline;"><a href="index.html">Home</a></li>
+<li style="display:inline;"><a href="music.html">Music</a></li>
+<li style="display:inline;"><a href="blog.html">Blog</a></li>
+<li style="display:inline;"><a href="about.html">About</a></li>
+<li style="display:inline;"><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
 
+<!-- Header -->
+<header style="background-color:black; padding:10px;">
+<img src="Images/logo.png" alt="Music Addicts Logo" width="200">
+<h1 style="color:white;">Music Addicts</h1>
+</header>
 
-
-<h2>Music Promotions For Up And Coming Artists</h2>
+<!-- Main Section -->
+<section>
 
 <p>
 Music Addicts is a music promotion website designed to help artists share
@@ -34,19 +36,79 @@ talented artists, promote new releases, and connect fans with great music.
 <p>
 Many independent artists promote their music through platforms like
 <a href="https://www.youtube.com">YouTube</a> and
-<a href="https://soundcloud.com">SoundCloud</a>. These platforms help artists
-get discovered and grow their audience around the world.
+<a href="https://soundcloud.com">SoundCloud</a>. These platforms allow artists
+to reach audiences around the world.
 </p>
 
 <h2>Artists We've Helped</h2>
 
 <p><strong>Artist:</strong> Osamason</p>
-<img src="Images/artist1.png" alt="Osamason album cover">
+<img src="Images/artist1.png" alt="Osamason album cover" width="200">
 
 <p><strong>Artist:</strong> Che</p>
-<img src="Images/artist2.png" alt="Che album cover">
+<img src="Images/artist2.png" alt="Che album cover" width="200">
 
 <p><strong>Artist:</strong> Prettifun</p>
-<img src="Images/artist3.png" alt="Prettifun album cover">
+<img src="Images/artist3.png" alt="Prettifun album cover" width="200">
+
+<h2>Promotion Packages</h2>
+
+<table border="1">
+<tr>
+<th>Package</th>
+<th>Price</th>
+<th>Features</th>
+</tr>
+
+<tr>
+<td>Basic</td>
+<td>$25</td>
+<td>Social media promotion</td>
+</tr>
+
+<tr>
+<td>Standard</td>
+<td>$50</td>
+<td>Playlist promotion</td>
+</tr>
+
+<tr>
+<td>Premium</td>
+<td>$100</td>
+<td>Full music promotion campaign</td>
+</tr>
+</table>
+
+<h2>Featured Music</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/soNx46KmCDQ"
+title="Featured Music Video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+<h2>Contact Us</h2>
+
+<form>
+
+<label>Name:</label><br>
+<input type="text" name="name"><br><br>
+
+<label>Email:</label><br>
+<input type="email" name="email"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</footer>
+
+</body>
 
 </html>
