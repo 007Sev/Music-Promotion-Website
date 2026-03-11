@@ -65,6 +65,14 @@ border-bottom:none;
 
 /* Artist grid */
 
+.artist-streams{
+color:#9b5cff;
+font-size:14px;
+margin-top:-8px;
+margin-bottom:12px;
+font-weight:600;
+}
+
 .artist-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
