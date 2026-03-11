@@ -1,7 +1,7 @@
 /* Page */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Aclonica', sans-serif;
     margin: 0;
     background-color: #0f0f0f;
     color: white;
@@ -51,10 +51,16 @@ header img {
 
 /* Content section */
 
-section {
-    max-width: 1100px;
-    margin: auto;
-    padding: 40px 20px;
+section{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+text-align:center;
+border-bottom:1px solid #2a2a2a;
+}
+
+section:last-of-type{
+border-bottom:none;
 }
 
 /* Artist grid */
@@ -87,8 +93,10 @@ section {
 /* Table */
 
 table {
-    margin: 30px auto;
-    border-collapse: collapse;
+width: 90%;
+max-width: 900px;
+margin: 30px auto;
+border-collapse: collapse;
 }
 
 table th,
