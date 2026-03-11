@@ -137,6 +137,12 @@ section p {
     color: #d1d1d1;
 }
 
+.watch-text{
+color:#9b5cff;
+font-weight:600;
+text-shadow:0 0 0px #9b5cff;
+}
+
 /* Make the section centered */
 
 section {
