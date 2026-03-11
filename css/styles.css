@@ -50,6 +50,8 @@ header {
     padding: 120px 20px;
 }
 
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 header img {
     margin-bottom: 10px;
 }
