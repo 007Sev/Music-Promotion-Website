@@ -66,11 +66,17 @@ section {
     margin-top: 20px;
 }
 
-.artist-card {
-    background-color: #1a1a1a;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
+.artist-card{
+    background-color:#1a1a1a;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.artist-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,.6);
 }
 
 .artist-card img {
@@ -123,9 +129,9 @@ section {
 
 /* Add breathing room */
 
-section h2 {
-    margin-top: 70px;
-    margin-bottom: 25px;
+section h2{
+letter-spacing:1px;
+font-size:32px;
 }
 
 /* Link styling */
