@@ -26,13 +26,15 @@ nav li {
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:all .25s ease;
 }
 
-nav a:hover {
-    color: #9b5cff;
+nav a:hover{
+color:#9b5cff;
+text-shadow:0 0 8px #9b5cff;
 }
 
 /* Header */
@@ -102,12 +104,7 @@ form input {
     padding: 10px;
     margin-top: 8px;
 }
-/* Form */
 
-form input {
-    padding: 10px;
-    margin-top: 8px;
-}
 /* Improve intro readability */
 
 section p {
@@ -141,4 +138,81 @@ section a {
 
 section a:hover {
     text-decoration: underline;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 480px) {
+
+/* Stack navigation links */
+
+nav ul{
+display:flex;
+flex-direction:row;
+justify-content:flex-start;
+overflow-x:auto;
+white-space:nowrap;
+}
+
+nav li{
+display:inline-block;
+margin-right:20px;
+}
+
+nav a{
+font-size:16px;
+padding:8px 10px;
+display:inline-block;
+}
+
+/* Smaller header title */
+
+header h1{
+font-size:28px;
+}
+
+/* Artist cards stack */
+
+.artist-grid{
+grid-template-columns:1fr;
+}
+
+/* Images responsive */
+
+.artist-card {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.artist-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 15px #9b5cff33;
+}
+
+/* Responsive video */
+
+iframe{
+width:100%;
+height:200px;
+display:block;
+margin:20px auto;
+}
+
+/* Stack contact form */
+
+footer form{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+form input{
+width:80%;
+}
+
+nav a:active{
+color:#9b5cff;
 }
