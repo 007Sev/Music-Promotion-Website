@@ -43,8 +43,7 @@ text-shadow:0 0 8px #9b5cff;
 /* Header */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("../images/Punk.jpg");
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("../Images/Punk.jpg");
     background-position: center 40%;
     text-align: center;
     padding: 120px 20px;
